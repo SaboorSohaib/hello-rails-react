@@ -36,7 +36,7 @@
 
 # 📖 Rails Capstone <a name="about-project"></a>
 
-> Rails capstone is a web application. You can add categories, transactions for that categories.
+> Hello rails and react is a project in which you can see random greetings.
 
 ## 🛠 Built With <a name="built-with"></a>
 
