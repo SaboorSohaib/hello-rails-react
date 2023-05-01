@@ -104,7 +104,7 @@ Clone this repository to your desired folder:
 ```
  - mkdir my-folder
  - cd my-folder
- - git clone git@github.com:SaboorSohaib/Rails-Capstone.git
+ - git clone git@github.com:SaboorSohaib/hello-rails-react.git
  - cd Blog-app
  - bundle install
  - rails db:create
@@ -115,7 +115,7 @@ Clone this repository to your desired folder:
 
 To run the project, execute the following command:
 
-- rails server
+- ./bin/dev
 
 ### Run tests
 
