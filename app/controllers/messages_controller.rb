@@ -1,3 +1,6 @@
 class MessagesController < ApplicationController
-  def index; end
+  def index
+    @msg = Message.find(Message.pluck(:id).sample)
+    render json: @msg
+  end
 end
