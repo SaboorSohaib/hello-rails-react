@@ -115,7 +115,7 @@ Clone this repository to your desired folder:
 
 To run the project, execute the following command:
 
-- ./bin/dev
+- rails server
 
 ### Run tests
 
