@@ -1,3 +1,4 @@
+import { configureStore } from '@reduxjs/toolkit';
 const SHOW_GREETING = 'greetings/greetings/SHOW_MESSAGE';
 const API_LINK = 'http://127.0.0.1:3000/api/random_greeting';
 
@@ -40,3 +41,5 @@ const fetchGreetingObj = () => async (dispatch) => {
 };
 
 export { fetchGreetingObj, setGreetingAction };
+
+export const store = configureStore({ reducer: { greeting: Greet } });
