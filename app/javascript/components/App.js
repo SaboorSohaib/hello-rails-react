@@ -1,13 +1,9 @@
-import React from 'react';
-import Greeting from './Greeting';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { fetchData } from './redux/greetings/greetings';
+import Greeting from './components/Greet';
 
-function App() {
-  return (
-    <div>
-        <h3>Some One Says</h3>
-        <Greeting />
-    </div>
-    );
-}
+
 
 export default App;
